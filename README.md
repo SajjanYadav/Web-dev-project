@@ -1,6 +1,37 @@
 # Medium-Clone Backend
 <h5>Frontend Repo for Medium-Clone --> https://github.com/akashkmt/Medium-Clone</h5>
 
+
+### Setup
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/your-username/edtech-webapp.git
+    cd edtech-webapp
+    ```
+
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add the following variables:
+    ```
+    MONGO_URI=your-mongodb-uri
+    JWT_SECRET=your-jwt-secret
+    PORT=your-port
+    ```
+
+4. **Run the Application**:
+    ```bash
+    npm start
+    ```
+
+5. **Access the Application**:
+   Open your browser and navigate to `http://localhost:3000` to access the web application.
+
+
 ## Contributing
 
 We welcome contributions to improve the EdTech Web Application. To contribute, follow these steps:
